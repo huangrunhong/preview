@@ -38,7 +38,11 @@ function App() {
         <primitive object={scene} />
         <MapControls />
 
-        <Environment files="/preview/berlin.hdr" background />
+        <Environment
+          files="/preview/Outside_background_29112024.exr"
+          background
+          environmentIntensity={0.6}
+        />
       </Canvas>
     </main>
   );
